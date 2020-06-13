@@ -25,7 +25,7 @@ const buildPosts = (blogPosts) => {
     blogPosts.map((post) => {
         const postDate = new Date(parseInt(post.added_date)).toDateString()
         const postImage = `${API_BASE_URL}${post.post_image}`
-        const postLink = `/post.html?id=${post.id}`
+        const postLink = `post.html?id=${post.id}`
         blogPostContent += `
         <a class="post-link" href="${postLink}">
             <div class="post">
