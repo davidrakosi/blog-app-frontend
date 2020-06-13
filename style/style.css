@@ -20,7 +20,7 @@ header {
 }
 
 .home-page header, .new-post-page header {
-    background-image: url(/exercises/assets/banner.jpeg);
+    background-image: url(/assets/banner.jpeg);
 }
 
 header::before {
@@ -65,7 +65,7 @@ header::before {
     height: 100px;
     background-color: white;
     border-radius: 50%;
-    background-image: url(/exercises/assets/profileD.jpg);
+    background-image: url(/assets/profileD.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -114,7 +114,7 @@ header::before {
 
 .post-image {
     flex-basis: 40%;
-    background-image: url(/exercises/assets/images/image1.jpg);
+    background-image: url(/assets/images/image1.jpg);
     background-size: cover;
     background-position: center;
 }
