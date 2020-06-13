@@ -1,7 +1,7 @@
 
 
-const API_URL = "http://localhost:3000/api/posts";
-const API_BASE_URL = "http://localhost:3000/";
+const API_BASE_URL = "https://pwj-drakosi-blog-app.herokuapp.com";
+const API_URL = `${API_BASE_URL}/api/posts`;
 
 window.onload = () => {
     getPosts();

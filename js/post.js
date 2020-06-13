@@ -4,8 +4,8 @@
  * TODO: Complete buildPost function to fill in the post data in the post.html file using ids
  */
 
-const API_URL = "http://localhost:3000/api/posts/";
-const API_BASE_URL = "http://localhost:3000/";
+const API_BASE_URL = "https://pwj-drakosi-blog-app.herokuapp.com";
+const API_URL = `${API_BASE_URL}/api/posts/`;
 
 window.onload = () => {
     getPost();
@@ -45,6 +45,6 @@ const buildPost = (data) => {
     `
     document.getElementById('individual-post-container').innerHTML = postHtml
 
-    document.querySelector('header').style.backgroundImage=`url(${postImage})`
+    document.querySelector('header').style.backgroundImage = `url(${postImage})`
 }
 
